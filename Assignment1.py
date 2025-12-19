@@ -2,7 +2,7 @@ import os
 from google import genai
 from google.genai import types
 
-client = genai.Client(api_key="AIzaSyDkmUBKbEuBoENeEvmlTb4SrK-mJZ8YzKQ")
+client = genai.Client(api_key="API-KEY")
 MODEL_ID = "gemini-2.5-flash-lite"
 
 def generate_text_experiment(prompt, temp, top_p, max_tokens):

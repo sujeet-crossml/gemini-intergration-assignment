@@ -3,7 +3,7 @@ from google.genai import types
 import PIL.Image
 
 
-client = genai.Client(api_key="AIzaSyDkmUBKbEuBoENeEvmlTb4SrK-mJZ8YzKQ")
+client = genai.Client(api_key="API-KEY")
 model_id = "gemini-3-flash-preview" 
 
 img_room = PIL.Image.open('room.png')
